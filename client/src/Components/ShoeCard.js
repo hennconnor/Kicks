@@ -3,9 +3,16 @@ const ShoeCard = ({ shoe }) => {
         <div className='card'>
             <p>{shoe.name}</p>
             <img src={shoe.picture} alt='shoe' height='300' width='300' />
-            <p>Brand: {shoe.brand}</p>
-            <p>Color: {shoe.color}</p>
-            <p>Price: {shoe.price}</p>
+            <div>
+                <ul>
+                    <li>Brand: {shoe.brand}</li>
+                    <li>Color: {shoe.color}</li>
+                    <li>Price: {shoe.price}</li>
+                </ul>
+
+                <button>Add to Cart</button>
+            </div>
+
         </div>
     )
 }

@@ -3,7 +3,7 @@ import ShoeCard from './ShoeCard';
 
 const ShoeDisplay = () => {
     return (
-        <div>
+        <div id='Display'>
             {shoes.map((shoe) =>
                 <ShoeCard shoe={shoe} />
             )}
