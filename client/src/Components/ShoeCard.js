@@ -1,19 +1,13 @@
-const ShoeCard = ({ shoe }) => {
+const ShoeCard = ({ shoe, handleClick }) => {
+
     return (
-        <div className='card'>
-            <p>{shoe.name}</p>
+        <div className='card' onClick={handleClick}>
             <img src={shoe.picture} alt='shoe' height='300' width='300' />
-            <div>
-                <ul>
-                    <li>Brand: {shoe.brand}</li>
-                    <li>Color: {shoe.color}</li>
-                    <li>Price: {shoe.price}</li>
-                </ul>
-
-                <button>Add to Cart</button>
-            </div>
-
+            <p>{shoe.brand}</p>
+            <p>{shoe.name}</p>
+            <p>{shoe.price}</p>
         </div>
+
     )
 }
 

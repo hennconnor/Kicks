@@ -4,13 +4,27 @@
         "brand": "Jordan",
         "color": "Red",
         "price": "$369",
-        "picture": "https://image.goat.com/transform/v1/attachments/product_template_additional_pictures/images/080/963/037/original/920714_01.jpg.jpeg?action=crop&width=1000"
+        "picture": "https://cdn.flightclub.com/1250/TEMPLATE/307016/1.jpg"
     },
     {
         "name": "Jordan 3 Retro SB Pine Green",
         "brand": "Jordan",
         "color": "Green",
         "price": "$318",
-        "picture": "https://i.ebayimg.com/images/g/IYUAAOSw4K9kRSz6/s-l1600.jpg"
+        "picture": "https://cdn.flightclub.com/1250/TEMPLATE/359393/1.jpg"
+    },
+    {
+        "name": "Nike AIR FOAMPOSITE ONE 'EGGPLANT' 2017",
+        "brand": "Nike",
+        "color": "Purple",
+        "price": "$382",
+        "picture": "https://cdn.flightclub.com/1250/TEMPLATE/801438/1.jpg"
+    },
+    {
+        "name": "AIR JORDAN 7 RETRO 'RAPTOR' 2012",
+        "brand": "Jordan",
+        "color": "Black",
+        "price": "$347",
+        "picture": "https://cdn.flightclub.com/1250/TEMPLATE/011617/1.jpg"
     }
 ]
