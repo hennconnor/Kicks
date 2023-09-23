@@ -1,7 +1,6 @@
-import shoes from '../Shoes.json';
 import ShoeCard from './ShoeCard';
 
-const ShoeDisplay = ({ handleClick }) => {
+const ShoeDisplay = ({ handleClick, shoes }) => {
     return (
         <div id='display'>
             {shoes.map((shoe) =>

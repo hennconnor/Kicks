@@ -6,4 +6,7 @@
 #   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
 #   Character.create(name: "Luke", movie: movies.first)
 
-    shoe1 = Shoe.create([{name: "The Air Jordan 1 Retro High OG 'Chicago Lost & Found'"},  {brand: 'Jordan'}, {primarycolor: 'red'}, {picture: 'https://image.goat.com/transform/v1/attachments/product_template_additional_pictures/images/080/963/037/original/920714_01.jpg.jpeg?action=crop&width=1000'}])
+    chicago_1 = Shoe.create(name: "The Air Jordan 1 Retro High OG 'Chicago Lost & Found'",  brand: 'Jordan', color: 'red', picture: "https://cdn.flightclub.com/1250/TEMPLATE/307016/1.jpg", price: 369)
+    pinegreen_3 =  Shoe.create(name: "Jordan 3 Retro SB Pine Green",brand: "Jordan", color: "Green", picture: "https://cdn.flightclub.com/1250/TEMPLATE/359393/1.jpg", price: 318)
+    eggplant_foam = Shoe.create(name: "Nike AIR FOAMPOSITE ONE 'EGGPLANT' 2017", brand: "Nike", color: "Purple", picture: "https://cdn.flightclub.com/1250/TEMPLATE/801438/1.jpg", price: 382)
+    raptor_7 = Shoe.create(name: "AIR JORDAN 7 RETRO 'RAPTOR' 2012", brand: "Jordan", color: "Black", picture: "https://cdn.flightclub.com/1250/TEMPLATE/011617/1.jpg", price: 347)
