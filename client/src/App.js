@@ -1,5 +1,5 @@
 import NavBar from './Components/NavBar';
-import ShoeDisplay from './Components/ShoeDisplay';
+import Home from './Pages/Home';
 import { useState, useEffect } from 'react';
 
 function App() {
@@ -22,7 +22,7 @@ function App() {
   return (
     <div className="App">
       <NavBar />
-      <ShoeDisplay shoes={shoes} handleClick={handleClick} />
+      <Home shoes={shoes} handleClick={handleClick} />
     </div>
   );
 }
